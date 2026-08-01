@@ -9,6 +9,11 @@ import Dashboard from '../pages/Dashboard';
 import Profile from '../pages/Profile';
 import CreateDebate from '../pages/CreateDebate';
 import MyDebates from '../pages/MyDebates';
+import DebateArena from '../pages/DebateArena';
+import ArgumentAnalysis from '../pages/ArgumentAnalysis';
+import PresentationAnalysis from '../pages/PresentationAnalysis';
+import PerformanceDashboard from '../pages/PerformanceDashboard';
+import AdminDashboard from '../pages/AdminDashboard';
 import NotFound from '../pages/NotFound';
 import DashboardLayout from '../layouts/DashboardLayout';
 
@@ -52,6 +57,13 @@ const AppRoutes = () => {
             <Route path="/profile" element={<Profile />} />
             <Route path="/create-debate" element={<CreateDebate />} />
             <Route path="/my-debates" element={<MyDebates />} />
+            
+            {/* Week 2, 3 & 4 Milestones Pages */}
+            <Route path="/debate/arena" element={<DebateArena />} />
+            <Route path="/argument-analysis" element={<ArgumentAnalysis />} />
+            <Route path="/presentation-analysis" element={<PresentationAnalysis />} />
+            <Route path="/performance" element={<PerformanceDashboard />} />
+            <Route path="/admin-dashboard" element={<AdminDashboard />} />
           </Route>
 
           {/* Fallback 404 Route */}

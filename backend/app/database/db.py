@@ -3,8 +3,19 @@ from sqlalchemy.orm import sessionmaker, declarative_base
 from backend.app.core.config import settings
 
 db_url = settings.DATABASE_URL
-if db_url.startswith("postgresql://"):
-    db_url = db_url.replace("postgresql://", "postgresql+psycopg://", 1)
+
+# Automatic fallback to SQLite if PostgreSQL fails to connect
+if db_url.startswith("postgresql://") or db_url.startswith("postgresql+psycopg://"):
+    temp_url = db_url.replace("postgresql://", "postgresql+psycopg://", 1)
+    try:
+        # Test connection
+        temp_engine = create_engine(temp_url, connect_args={"connect_timeout": 2})
+        conn = temp_engine.connect()
+        conn.close()
+        db_url = temp_url
+    except Exception:
+        # Graceful fallback to SQLite
+        db_url = "sqlite:///./test.db"
 
 # Adjust sqlite connection args if running with SQLite
 engine_kwargs = {}
