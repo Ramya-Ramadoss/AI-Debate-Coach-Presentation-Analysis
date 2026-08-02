@@ -1,4 +1,4 @@
-# 🎤 Agentic AI Debate Coach & Presentation Analysis Platform
+# 🎤 Agentic AI Debate Coach and Presentation Analysis Platform
 
 [![Build Status](https://img.shields.io/badge/build-passing-brightgreen.svg?style=flat-square)](#)
 [![License](https://img.shields.io/badge/license-MIT-blue.svg?style=flat-square)](LICENSE)
