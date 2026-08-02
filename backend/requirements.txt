@@ -1,3 +1,5 @@
+setuptools
+wheel
 fastapi==0.139.0
 uvicorn==0.51.0
 sqlalchemy==2.0.51
