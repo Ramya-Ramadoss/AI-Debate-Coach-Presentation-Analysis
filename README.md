@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&height=250&color=0:134E5E,50:2ECC71,100:A8E063&text=AI%20DEBATE%20%20PRESENTATION%20COACH&fontSize=55&fontColor=ffffff&animation=fadeIn&fontAlignY=40"/>
+  <img src="https://capsule-render.vercel.app/api?type=waving&height=250&color=0:134E5E,50:2ECC71,100:A8E063&text=%20DEBATE%20%20PRESENTATION%20COACH&fontSize=55&fontColor=ffffff&animation=fadeIn&fontAlignY=40"/>
 </p>
 
 # 🎤 Agentic AI Debate Coach and Presentation Analysis Platform
