@@ -10,7 +10,11 @@
 [![React](https://img.shields.io/badge/React-19.0.0-61DAFB.svg?style=flat-square&logo=react)](https://react.dev)
 [![Docker](https://img.shields.io/badge/Docker-Orchestrated-2496ED.svg?style=flat-square&logo=docker)](https://www.docker.com)
 
-An AI-powered coaching and evaluation platform that assists users in improving their debate strategy, public speaking, argumentation structure, and logical consistency.
+The **Agentic AI Debate Coach** is an intelligent communication platform designed to help users develop stronger arguments, improve public speaking skills, practice structured debates, and receive actionable AI-driven coaching.
+
+Rather than simply evaluating a speech, the platform functions as an **interactive AI mentor** that understands reasoning, identifies logical weaknesses, simulates debate opponents, analyzes delivery, and provides personalized improvement strategies.
+
+Whether preparing for competitive debates, interviews, presentations, or classroom discussions, users receive comprehensive feedback covering both **content quality** and **presentation effectiveness**.
 
 This repository holds the complete monorepo implementation covering:
 * **Week 1 Foundation Architecture**: DB schemas, JWT authentication, user experience profiles, and session CRUD.
